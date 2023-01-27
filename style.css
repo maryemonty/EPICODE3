@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,600&display=swap');
+#footer{
+    padding: 16px;
+    background-color: black;
+    text-align: center;
+}
+.main-section{
+    padding: 20px
+}
+.image-container, .lake-powell, .navajo, .horseshoe, .hanging, .glen{
+    height: 500px;
+    background-image: url(https://i0.wp.com/www.foodeviaggi.it/wp-content/uploads/2019/05/COVER-POST-6.jpg?w=900&ssl=1);
+    background-repeat: no-repeat;
+}
+.lake-powell{
+    background-image: url(https://media.cntraveler.com/photos/58d91937bf12f06bcf42e632/16:9/w_2560%2Cc_limit/GettyImages-480857752.jpg);
+}
+.navajo{
+    background-image: url(https://fastly.4sqi.net/img/general/600x600/87388367_s6WLqJtC4FhvJ6_w0lNcXvE9inktks2DPri21QZVwRk.jpg);
+}
+.horseshoe{
+    background-image: url(http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcTUx0uGxD9FMhEeaI4WQxEXLeGa9AlsyMqDpVCQrib5UCTypN4GD1IkjKu8-PiWHFeg);
+}
+.hanging{
+    background-image: url(https://www.nps.gov/glca/learn/nature/images/RABR-Hanging-Garden.jpg?maxwidth=1200&maxheight=1200&autorotate=false);
+}
+.glen{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Glen_Canyon_National_Recreation_Area_-_Lake_Powell_-_Reflection_Canyon.jpg/1280px-Glen_Canyon_National_Recreation_Area_-_Lake_Powell_-_Reflection_Canyon.jpg);
+}
+.fonth1{
+    font-size: 64px;
+    font-family: 'Prata', serif;
+}
+.fonth3{
+    font-size: 24px;
+    font-family: 'Prata', serif;
+    margin-top: 0px;
+}
+h1, h3{
+    margin-bottom: 0px;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+.link{
+    font-style: oblique;
+    font-family: 'Montserrat', sans-serif;
+}
+.fonth6, .fonth62, .fonth64, .fonth65{
+    padding: 22px;
+    margin-bottom: 0px;
+    margin-top: 56px;
+    color: white;
+    border-radius: 6px;
+    background: linear-gradient(94deg, #795548, #ff7300)
+}
+.lista{
+    padding-left: 0px;
+}
+
+li{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    border-bottom: 1px #dfdfdf
+}
+a{
+    text-decoration: none;
+    color: brown;
+}
+.colore{
+    color: #0095ff
+}
+
+.colore4{
+    color: #39394e
+}
+.colore5{
+
+}
+
+
+/*lake powell*/
+.fonth62{
+    background: linear-gradient(94deg, #0095ff, #ff7300)
+}
+/*NAVAJO VILLAGE HERITAGE CENTER è lo stesso colore della main page*/
+
+/*HANGING GARDEN HIKE*/
+.fonth64{
+    background: linear-gradient(94deg, #39394e, #ffdca5)
+}
+/*HORSESHOE BEND E GLEN CANYON DAM OVERLOOK*/
+.fonth65{
+    background: linear-gradient(94deg, brown, #0095ff)
+}
